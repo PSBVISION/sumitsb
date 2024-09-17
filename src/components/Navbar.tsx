@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <div className="bg-[#EE1702] max-w-7xl mx-auto w-full my-7 rounded-2xl">
+    <div className="bg-[#EE1702] max-w-7xl mx-auto w-full my-7 rounded-2xl ">
+      <div className="md:hidden"></div>
       <div className="flex justify-between p-4 mx-auto">
         <div className="text-left text-balance font-[Michroma] md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white ml-5 hover:bg-[#FF8A00] hover:px-2 hover:rounded-xl hover:text-black py-auto">
           <Link href={"/"}>SUMIT SINGH BISHT</Link>
